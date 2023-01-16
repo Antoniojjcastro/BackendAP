@@ -4,6 +4,7 @@
  */
 package com.backendAP.backend.Login.Controller;
 
+
 import com.backendAP.backend.Login.Dto.JwtDto;
 import com.backendAP.backend.Login.Dto.LoginUsuario;
 import com.backendAP.backend.Login.Dto.NuevoUsuario;
@@ -37,6 +38,7 @@ import org.springframework.web.bind.annotation.RestController;
 //@CrossOrigin(origins = "http://localhost:4200")
 
 public class AuthController {
+   
     @Autowired
     PasswordEncoder passwordEncoder;
     @Autowired

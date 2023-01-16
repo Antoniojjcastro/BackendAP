@@ -19,8 +19,6 @@ public class dtoEducacion {
     @NotBlank
     private String url_img;
     @NotBlank
-    private String score;
-    @NotBlank
     private String start;
     @NotBlank
     private String end; 
@@ -30,11 +28,10 @@ public class dtoEducacion {
     public dtoEducacion() {
     }
 
-    public dtoEducacion(String school, String title, String url_img, String score, String start) {
+    public dtoEducacion(String school, String title, String url_img, String start) {
         this.school = school;
         this.title = title;
         this.url_img = url_img;
-        this.score = score;
         this.start = start;
     }
 
